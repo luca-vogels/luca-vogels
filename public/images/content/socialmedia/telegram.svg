@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Livello_1"
+   data-name="Livello 1"
+   viewBox="0 0 1133.8583 1133.8583"
+   version="1.1"
+   sodipodi:docname="telegram.svg"
+   width="300mm"
+   height="300mm"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     units="mm"
+     inkscape:showpageshadow="false"
+     inkscape:zoom="0.21458333"
+     inkscape:cx="-253.98058"
+     inkscape:cy="-459.02913"
+     inkscape:window-width="1680"
+     inkscape:window-height="979"
+     inkscape:window-x="1912"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Livello_1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="linear-gradient"
+       x1="120"
+       y1="240"
+       x2="120"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0"
+         stop-color="#1d93d2"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#38b0e3"
+         id="stop4" />
+    </linearGradient>
+  </defs>
+  <title
+     id="title9">Telegram_logo</title>
+  <circle
+     cx="566.92914"
+     cy="566.92914"
+     r="548.03149"
+     fill="url(#linear-gradient)"
+     id="circle11"
+     style="fill:url(#linear-gradient);stroke-width:1" />
+  <path
+     d="m 389.86472,606.99023 65.01937,179.96441 c 0,0 8.12914,16.83827 16.8337,16.83827 8.70457,0 138.17244,-134.68787 138.17244,-134.68787 L 753.86267,391.02472 392.18472,560.53543 Z"
+     fill="#c8daea"
+     id="path13"
+     style="stroke-width:1" />
+  <path
+     d="m 476.07464,653.14362 -12.48141,132.65102 c 0,0 -5.22457,40.64567 35.41197,0 40.63653,-40.64567 79.53307,-71.9885 79.53307,-71.9885"
+     fill="#a9c6d8"
+     id="path15"
+     style="stroke-width:1" />
+  <path
+     d="M 391.03842,613.41134 257.29134,569.8337 c 0,0 -15.98425,-6.48504 -10.83732,-21.19055 1.05952,-3.03244 3.19685,-5.61276 9.59055,-10.04725 29.6348,-20.65622 548.51558,-207.1559 548.51558,-207.1559 0,0 14.65071,-4.93685 23.29134,-1.65323 a 12.632126,12.632126 0 0 1 8.60866,9.38504 42.732756,42.732756 0 0 1 1.16,11.80551 c -0.0411,3.43433 -0.45669,6.61748 -0.77181,11.60914 -3.16031,50.98976 -97.73228,431.54283 -97.73228,431.54283 0,0 -5.65843,22.26834 -25.93102,23.03102 a 37.129134,37.129134 0 0 1 -27.05906,-10.4674 c -39.78252,-34.22 -177.28362,-126.62724 -207.6674,-146.95008 a 5.8,5.8 0 0 1 -2.49354,-4.11023 c -0.42473,-2.14189 1.90441,-4.79528 1.90441,-4.79528 0,0 239.42582,-212.8189 245.79669,-235.16031 0.49323,-1.73087 -1.37008,-2.58488 -3.87276,-1.82677 -15.90204,5.85023 -291.57102,179.937 -321.9959,199.15007 a 14.659842,14.659842 0 0 1 -6.75906,0.41103 z"
+     fill="#ffffff"
+     id="path17"
+     style="stroke-width:1" />
+  <metadata
+     id="metadata837">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Telegram_logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

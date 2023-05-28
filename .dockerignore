@@ -1,0 +1,13 @@
+.github/
+.vscode/
+bin/__tests__/
+cache/
+node_modules/
+public/images/blog/
+.dockerignore
+.eslintrc.json
+.gitignore
+Dockerfile
+next-env.ts
+README.md
+tsconfig.json

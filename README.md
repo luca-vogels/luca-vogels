@@ -1,2 +1,2 @@
-# luca-vogels.com
+# luca-vogels
 Personal website

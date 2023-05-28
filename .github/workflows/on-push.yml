@@ -1,0 +1,36 @@
+name: On Push
+on: [push]
+jobs:
+  deploy:
+    name: Building & Deploy
+    runs-on: Linux
+    env:
+      NODE_ENV: development
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Checking out repository
+        uses: actions/checkout@v3
+      - name: "Setup Node"
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Installing 
+        run: npm install -save --save-dev
+      - name: Building
+        run: npm run build
+
+      - name: Creating Docker image
+        run: docker build -t luca-vogels .
+
+      - name: Stop and remove current containers
+        run: docker rm -f luca-vogels || true
+
+      - name: Start new container luca-vogels
+        run: docker run -d --name luca-vogels --restart=always -p 50695:80 luca-vogels
+
+      - name: Done
+        run: exit 0
+      - name: Done
+        run: exit 0

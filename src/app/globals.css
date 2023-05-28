@@ -1,0 +1,79 @@
+:root {
+
+  --color-text: #fff;
+  --color-background: #fff;
+  --color-background-transparent: rgba(128,128,128, 0.2);
+
+  --color-header-text: #fff;
+
+  --content-width: 800px;
+
+  --font-text: textFont, sans-serif;
+  --font-title: titleFont, sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text: #fff;
+    --color-background: #494949;
+  }
+
+  html {
+    color-scheme: dark;
+  }
+}
+
+@font-face {
+	font-family: textFont;
+	src: url(/css/fonts/trebuchet-ms.ttf);
+}
+
+@font-face {
+	font-family: inputFont;
+	src: url(/css/fonts/comic-sans-ms.ttf);
+}
+
+@font-face {
+	font-family: titleFont;
+	src: url(/css/fonts/slim-extrem.ttf);
+}
+
+@font-face {
+	font-family: websiteExampleFont;
+	src: url(/css/fonts/BPdiet.otf);
+}
+
+* {
+  appearance: none;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html,
+body {
+  max-width: 100vw;
+  font-family: var(--font-text);
+  overflow-x: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+
+  height: 100dvh;
+
+  color: var(--color-text);
+  background: var(--color-background);
+}
+
+
+
+

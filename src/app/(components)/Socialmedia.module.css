@@ -1,0 +1,12 @@
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.socialmedia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.2em 0.25em;
+}

@@ -1,0 +1,33 @@
+{
+  "name": "luca-vogels",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "rm -rf .next && npx tsc && node ./bin/server.mjs",
+    "build": "rm -rf .next && npx tsc && next lint && next build",
+    "start": "node ./bin/server.mjs --production",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "lup-images": "^1.0.3",
+    "lup-language": "^1.10.1",
+    "next": "^13.4.5-canary.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.17",
+    "@types/next": "^9.0.0",
+    "@types/node": "^20.2.5",
+    "@types/react": "^18.2.7",
+    "@types/react-dom": "^18.2.4",
+    "eslint": "8.41.0",
+    "eslint-config-next": "13.4.4",
+    "typescript": "5.0.4"
+  }
+}
